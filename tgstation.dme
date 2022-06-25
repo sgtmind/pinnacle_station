@@ -4550,4 +4550,6 @@
 #include "interface\menu.dm"
 #include "interface\stylesheet.dm"
 #include "interface\skin.dmf"
+#include "pinnacle_station\items\clothing\suits\hardsuit\systems_alliance_hardsuit.dm"
+#include "pinnacle_station\modules\kinesis_shields\kinesis_shields.dm"
 // END_INCLUDE

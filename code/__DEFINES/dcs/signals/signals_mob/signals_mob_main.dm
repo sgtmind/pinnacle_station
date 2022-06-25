@@ -122,6 +122,12 @@
 #define COMSIG_MOB_CLUMSY_SHOOT_FOOT "mob_clumsy_shoot_foot"
 ///from /obj/item/hand_item/slapper/attack_atom(): (source=obj/structure/table/slammed_table, mob/living/slammer)
 #define COMSIG_TABLE_SLAMMED "table_slammed"
+///from /mob/living/attacked_by(): (obj/item/I, mob/living/user)
+#define COMSIG_MOB_ATTACKED "mob_attacked"
+	/// prevent the attack message from displaying
+	#define COMPONENT_MOB_ATTACKED_BLOCK_MESSAGE (1<<0)
+	/// prevent running the damage checks
+	#define COMPONENT_MOB_ATTACKED_BLOCK_DAMAGE (1<<1)
 ///from base of atom/attack_hand(): (mob/user, modifiers)
 #define COMSIG_MOB_ATTACK_HAND "mob_attack_hand"
 ///from base of /obj/item/attack(): (mob/M, mob/user)
