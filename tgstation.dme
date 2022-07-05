@@ -4550,6 +4550,11 @@
 #include "interface\menu.dm"
 #include "interface\stylesheet.dm"
 #include "interface\skin.dmf"
+#include "pinnacle_station\_defines\ammo.dm"
+#include "pinnacle_station\items\ammo\human_ammo.dm"
 #include "pinnacle_station\items\clothing\suits\hardsuit\systems_alliance_hardsuit.dm"
+#include "pinnacle_station\items\guns\human weapons.dm"
 #include "pinnacle_station\modules\kinesis_shields\kinesis_shields.dm"
+#include "pinnacle_station\species\turian\turian.dm"
+#include "pinnacle_station\species\turian\turian_bodyparts.dm"
 // END_INCLUDE
