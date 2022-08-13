@@ -46,7 +46,7 @@
 	wound_falloff_tile = -5
 	embed_falloff_tile = -3
 
-/obj/item/ammo_casing/m8_avenger
+/obj/item/ammo_casing/m99_sabre
 	name = "M8 Avenger Flek"
 	desc = "A flek from an M8 Avenger"
 	caliber = CALIBER_M8_AVENGER

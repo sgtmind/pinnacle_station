@@ -3,15 +3,14 @@
 	plural_form = "turian"
 	id = SPECIES_TURIAN
 	say_mod = "says"
-	species_traits = list(HAS_FLESH, HAS_BONE)
+	species_traits = list(MUTCOLORS, EYECOLOR, HAS_FLESH, HAS_BONE)
 	inherent_traits = list(
 		TRAIT_ADVANCEDTOOLUSER,
 		TRAIT_CAN_STRIP,
 		TRAIT_CAN_USE_FLIGHT_POTION,
 	)
 	inherent_biotypes = MOB_ORGANIC|MOB_HUMANOID
-	coldmod = 1
-	heatmod = 1
+//	use_skintones = 1
 	payday_modifier = 0.75
 	changesource_flags = MIRROR_BADMIN | WABBAJACK | MIRROR_PRIDE | MIRROR_MAGIC | RACE_SWAP | ERT_SPAWN | SLIME_EXTRACT
 	species_cookie = /obj/item/food/meat/slab
@@ -21,21 +20,21 @@
 	miss_sound = 'sound/weapons/slashmiss.ogg'
 	deathsound = 'sound/voice/lizard/deathsound.ogg'
 	species_language_holder = /datum/language_holder/lizard
-'
+
 
 	bodypart_overrides = list(
-		BODY_ZONE_HEAD = /obj/item/bodypart/head/lizard,
-		BODY_ZONE_CHEST = /obj/item/bodypart/chest/lizard,
-		BODY_ZONE_L_ARM = /obj/item/bodypart/l_arm/lizard,
-		BODY_ZONE_R_ARM = /obj/item/bodypart/r_arm/lizard,
-		BODY_ZONE_L_LEG = /obj/item/bodypart/l_leg/lizard,
-		BODY_ZONE_R_LEG = /obj/item/bodypart/r_leg/lizard,
+		BODY_ZONE_HEAD = /obj/item/bodypart/head/turian,
+		BODY_ZONE_CHEST = /obj/item/bodypart/chest/turian,
+		BODY_ZONE_L_ARM = /obj/item/bodypart/l_arm/turian,
+		BODY_ZONE_R_ARM = /obj/item/bodypart/r_arm/turian,
+		BODY_ZONE_L_LEG = /obj/item/bodypart/l_leg/turian,
+		BODY_ZONE_R_LEG = /obj/item/bodypart/r_leg/turian,
 	)
 
 
 /datum/species/turian/random_name(gender,unique,lastname)
 	if(unique)
-		return random_unique_turian_name(gender)
+		return random_unique_lizard_name(gender)
 
 	var/randname = lizard_name(gender)
 
