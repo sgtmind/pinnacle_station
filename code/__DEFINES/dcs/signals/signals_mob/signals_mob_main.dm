@@ -171,3 +171,9 @@
 
 ///from living/flash_act(), when a mob is successfully flashed.
 #define COMSIG_MOB_FLASHED "mob_flashed"
+
+#define COMSIG_MOB_ATTACKED "mob_attacked"
+	/// prevent the attack message from displaying
+#define COMPONENT_MOB_ATTACKED_BLOCK_MESSAGE (1<<0)
+	/// prevent running the damage checks
+#define COMPONENT_MOB_ATTACKED_BLOCK_DAMAGE (1<<1)

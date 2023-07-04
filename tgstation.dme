@@ -4896,4 +4896,13 @@
 #include "interface\menu.dm"
 #include "interface\stylesheet.dm"
 #include "interface\skin.dmf"
+#include "pinnacle_station\code\_defines\ammo.dm"
+#include "pinnacle_station\code\_defines\skills.dm"
+#include "pinnacle_station\code\_defines\species.dm"
+#include "pinnacle_station\code\items\ammo\human_ammo.dm"
+#include "pinnacle_station\code\items\clothing\suits\hardsuit\systems_alliance_hardsuit.dm"
+#include "pinnacle_station\code\items\guns\human weapons.dm"
+#include "pinnacle_station\code\modules\kinesis_shields\kinesis_shields.dm"
+#include "pinnacle_station\code\species\turian\turian.dm"
+#include "pinnacle_station\code\species\turian\turian_bodyparts.dm"
 // END_INCLUDE
